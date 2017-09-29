@@ -1,8 +1,5 @@
 # Ftps
-Short description and motivation.
-
-## Usage
-How to use my plugin.
+A Git repo made to make you mad. You probably came here thinking someone made a gem for downloading from an FTPS server. That'd be convenient, eh?  
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -21,8 +18,11 @@ Or install it yourself as:
 $ gem install ftps
 ```
 
-## Contributing
-Contribution directions go here.
+Then just run:
+
+```
+Ftps.download("YOUR SERVER URL")
+```
 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
